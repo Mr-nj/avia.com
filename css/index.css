@@ -1,0 +1,125 @@
+.banner{
+	width: 100%;
+	position: relative;
+	top: 0;
+	height: 677.34px;
+	overflow: hidden;
+}
+.banner img{
+	width: 1920px;
+	display: block;
+	height: 677.34px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -951px;
+}
+.input{
+	width: 600PX;
+	height: 60px;
+	background: rgba(51,51,51,0.5);
+	border-radius: 8px;
+	position: absolute;
+	top: 340px;
+	left: 50%;
+	margin-left: -300px;
+	z-index: 2;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.input>input:nth-child(1){
+	width: 464px;
+	height: 50px;
+	border-radius: 8px;
+	font-size: 22px;
+	border: none;
+}
+.input>input:nth-child(2){
+	width: 118px;
+	height: 50px;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 22px;
+	cursor: pointer;
+	border: none;
+}
+.main h1{
+	font-size: 46px;
+	text-align: center;
+	color: #666666;
+	font-weight: bold;
+	margin-top: 20px
+}
+h4{
+	text-align: center;
+}
+.jingdian{
+	width: 392px;
+	height: 323px;
+	border: 1px solid #a7a7a7;
+	border-radius: 5px;
+	box-sizing:border-box;
+	margin-top: 20px;
+}
+.jingdian img{
+	width: 380px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.jieshao{
+	width: 380px;
+	font: 400 12px/28px "micsoft yahei";
+	color: #747780;
+	margin-left: 6px;
+	/* white-space:pre; */
+	/* word-break:normal;  
+	white-space:pre-warp;  
+	word-wrap:break-word; */
+}
+.jingdian p span{
+	color: black;
+}
+.jiage{
+font-size: 18px;
+display: block;
+float: left;
+bottom: 11px;
+color: #ff6600;	
+margin-left: 6px;
+}
+.jiage::after{
+	content: "起";
+	display:block;
+	float: right;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #ff6600;
+}
+.jiage::before{
+	content: "¥";
+	display: block;
+	float: left;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #ff6600;
+}
+.manyidu{
+	font-size: 12px;
+	float: right;
+	bottom: 11px;
+	margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+.main{
+    margin: 0 auto;
+    /* height: 1000px; */
+}

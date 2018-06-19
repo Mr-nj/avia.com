@@ -1,0 +1,117 @@
+*{padding:0; margin:0;}
+html,body{width:100%; height:100%;}
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, table, th, td { font-size: 1em; font-style: normal; font-weight: normal;}
+strong { font-weight: bold;}
+ul, ol, li { list-style-type:none;}
+fieldset, img { border: medium none; vertical-align: middle;}
+table { border-collapse: collapse; border-spacing: 0;}
+a{ text-decoration:none;outline:none;color: #ffffff;}
+input,button,select,textarea{ outline:none}
+
+.l{float:left;}
+.r{float:right;}
+.clear{ clear:both;}
+.clearfix {
+    *zoom: 1;
+}
+.phcolor{ color:#999;}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+img{
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.mid-block{width:1000px; margin:0 auto; position:relative;}
+body{ min-width:1200px;font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif; font-size:14px;background-color:#ffffff; color:#959595;}
+/* 公用样式 */
+.main{
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    background: #333;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.content{
+    width: 1224px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.w{
+    width: 1224px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto;
+}
+.w img{
+    float: left;
+    margin-top: 10px;
+}
+.w ul{
+    float: right;
+  
+}
+.w li{
+    float: left;
+    padding: 0px 44px;
+    /* display: inline-block; */
+}
+.w li a{
+    width: 44px;
+    height: 70px;
+    /* display: block; */
+}
+.page1{
+    background: #000;
+}
+/* 底部开始 */
+.bottom{
+    width: 100%;
+    height: 360px;
+    background: #333;   
+    margin-top: 20px; 
+}
+.bottom-content{
+    width: 1224px;
+    margin: 0 auto;
+}
+.bottom-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    justify-content: space-between; 
+} 
+.biaoti{
+    width: 400px;
+    height: 60px;
+    float: left; 
+    font: 700 24px/60px "Micsoft yahei";
+    border-bottom: 1px dotted rgb(97, 97, 97);
+}
+.bottom-content ul{
+    width: 404px;
+    font: 400 12px/40px "Micsoft yahei";
+    /* border:1px solid red; */
+} 
+.domain-name{
+    background: #000;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+}

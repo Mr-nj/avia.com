@@ -1,0 +1,174 @@
+.banner{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.banner img{
+    width: 1920px;
+    position: absolute;
+    top: 0;
+	left: 50%;
+	margin-left: -952px;
+}
+.about-content{
+    width: 870px;
+    float: left;
+}
+.about-content h1{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+.about-content p{
+    line-height: 32px;
+    color: black;
+}
+.contact{
+    width: 870px;
+    height: 500px;
+    margin-top: 20px;
+    border: 1px solid #f4f8fd;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px 4px #f4f8fd;
+}
+.contact p{
+    font: 18px black;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact input{
+    height: 50px;
+    width: 800px;
+    margin: 10px 35px;
+    color: #a5a5a5;
+    border: 1px solid #e6f0fa;
+}
+textarea{
+    width: 790px;
+    height: 180px;
+    padding: 10px 5px;
+    color: #a5a5a5;
+    border: 1px solid #e6f0fa;
+    margin: 10px 35px;
+    line-height: 20px;
+    line-height: 40px
+    font:18px "micsoft yahei";
+}
+input:focus{  
+    border-style:solid;  
+    border-color: #03a9f4;  
+    box-shadow: 0 0 5px #03a9f4;  
+}
+
+textarea:focus{  
+    border-style:solid;  
+    border-color: #03a9f4;  
+    box-shadow: 0 0 5px #03a9f4;  
+}
+
+
+
+.aside{
+    width: 340px;
+    height: 332px;
+    float: right;
+    margin-top: 30px;
+}
+.jingdian{
+    width: 340px;
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+}
+.jingdian p{
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.jingdian ul{
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 22px;
+}
+.jingdian ul li{
+    width: 100px;
+    height: 35px;
+    background: #eee;
+    text-align: center;
+    margin: 2px 2px;
+    
+}
+.jingdian ul li a{
+    line-height: 35px;
+    color: #b2b9c3;
+}
+.hot{
+    width: 340px;
+    height: 678px;
+    margin-top: 10px;
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+}
+.hot p{
+    text-align: center;
+    line-height: 30px;
+}
+.hot ul{
+    
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 22px;
+}
+.hot ul li{
+    width: 150px;
+    height: 154px;
+    margin: 0 6px;
+}
+.content{
+    height: 1258px;
+}
+.box{
+    width: 340px;
+    height: 154px;
+    margin-top: 10px;
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+}
+.box p{
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.box ul{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 22px;
+}
+.box ul li{
+    padding-left: 35px;
+    width: 115px;
+    height: 40px;
+    background-color: #eee;
+    line-height: 40px;
+    margin: 2px 3px;
+}
+.icon1{
+    background: url("../images/Scenery-icon1.gif") no-repeat 10px center;
+}
+.icon2{
+    background: url("../images/Scenery-icon2.gif") no-repeat 10px center;
+}
+.icon3{
+    background: url("../images/Scenery-icon3.gif") no-repeat 10px center;
+}
+.icon4{
+    background: url("../images/Scenery-icon4.gif") no-repeat 10px center;
+}
